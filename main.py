@@ -1,6 +1,6 @@
 # main.py
 
-from market_collector import MarketCollector
+from app.market_collector import MarketCollector
 
 
 def main():

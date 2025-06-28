@@ -11,8 +11,7 @@ load_dotenv()
 
 # Determine database file path from environment
 DATABASE_URL = os.getenv(
-    "DATABASE_URL",
-    os.path.join("..", "..", "..", "..", "..", "0 Shared Resources", "Databases", "markets.sqlite")
+    "DATABASE_URL"
 )
 # Resolve to absolute path and ensure directory exists
 db_file = os.path.abspath(DATABASE_URL)

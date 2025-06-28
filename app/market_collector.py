@@ -9,7 +9,7 @@ import pandas as pd
 from typing import Any, Dict, Optional
 from datetime import datetime, timezone
 
-from database_client import DatabaseClient, db_file
+from database.database_client import DatabaseClient, db_file
 
 # Load environment variables
 load_dotenv()
